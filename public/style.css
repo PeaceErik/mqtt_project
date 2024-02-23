@@ -1,0 +1,209 @@
+/* Universal Styling */
+
+body {
+    background-color: #e5e5e5;
+    height: 98vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+
+/* Logo Column styles */
+
+.logo-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    width: 340px;
+    height: 99vh;
+
+}
+
+.logo-txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand,
+.underline {
+    font-family: "Orbitron", sans-serif;
+}
+
+.brand {
+    font-size: 41px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.underline {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo-anim {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    height: 755px;
+}
+
+.anim-col {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.column {
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+.column-sm {
+    transform: scaleY(0);
+    transform-origin: bottom; 
+}
+
+.big-1, .big-2, .big-3, .big-4 {
+    background: rgb(87,87,87);
+    background: linear-gradient(180deg, rgba(87,87,87,1) 0%, rgba(95,95,95,0) 100%);
+}
+
+.small-1, .small-2, .small-3, .small-4 {
+    background: rgb(95,95,95);
+    background: linear-gradient(180deg, rgba(95,95,95,0) 0%, rgba(87,87,87,1) 100%);
+}
+
+.big-1 {
+    height: 820px;
+}
+
+.small-1 {
+    height: 20px;
+}
+
+.big-2 {
+    height: 780px;
+}
+
+.small-2 {
+    height: 60px;
+}
+
+.big-3 {
+    height: 740px;
+}
+
+.small-3 {
+    height: 100px;
+}
+
+.big-4 {
+    height: 700px;
+}
+
+.small-4 {
+    height: 140px;
+}
+
+
+/* Info text column */
+
+.txt-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    text-align: center;
+    position: relative;
+}
+
+.welcome-txt {
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.company-name {
+    font-family: "nasalization", sans-serif;
+    font-size: 75px;
+}
+
+.info-txt {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    opacity: 0;
+}
+
+
+/* Gsap-venner styling (Info fra kort-scan) */
+
+.verified {
+    position: absolute; 
+    top: 34.5%;
+    left: 24%;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    opacity: 0;
+}
+
+
+.gsap-venner {
+    position: absolute;
+    top: 40%;
+    left: 48%; 
+    font-family: "nasalization", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    white-space: nowrap;
+    opacity: 0.0; 
+}
+
+.go {
+    position: absolute; 
+    bottom: 20%; 
+    left: 50%; 
+    transform: translateX(-50%);
+    opacity: 0;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.border {
+    height: 0px; 
+    width: 3px; 
+    background: #707070;
+    position: absolute; 
+    top: 41.8%; 
+    left: 47%; 
+
+}
+
+
+/* Arrows ->->-> */
+
+.arrows {
+    position: absolute;
+    right: 42%;
+    bottom: 10%;
+}
+
+.arrow {
+    height: 20px;
+    width: 40px;
+}
+
+.arrow img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
